@@ -1,0 +1,23 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "src/database/local.sqlite"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "sequelize",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": 3307,
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
