@@ -1,11 +1,9 @@
-import db from "./database/models";
+import { user } from "./database/models";
 import "babel-polyfill";
 
 async function app() {
 
-    const user = db["user"];
-
-    await user.create({ firstName: "John" });
+    await user.create({ firstName: "John 2" });
 
     const users = await user.findAll();
 
