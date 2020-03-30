@@ -14,8 +14,8 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        // "semi": ["error", "always"],
-        // "quotes": ["error", "double"],
-        // "eqeqeq": ["error", "always"]
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "eqeqeq": ["error", "always"]
     }
 };
