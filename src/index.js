@@ -3,11 +3,11 @@ import "babel-polyfill";
 
 async function app() {
 
-    const saco = db["saco"];
+    const user = db["user"];
 
-    await saco.create({ firstName: "John" });
+    await user.create({ firstName: "John" });
 
-    const users = await saco.findAll();
+    const users = await user.findAll();
 
     console.log(JSON.stringify(users, null, 4));
 }

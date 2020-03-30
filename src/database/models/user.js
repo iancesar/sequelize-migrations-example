@@ -1,10 +1,10 @@
 "use strict";
 module.exports = (sequelize, DataTypes) => {
-  const saco = sequelize.define("saco", {
+  const user = sequelize.define("user", {
     firstName: DataTypes.STRING
   }, { freezeTableName: true });
-  saco.associate = function () {
+  user.associate = function () {
     // associations can be defined here
   };
-  return saco;
+  return user;
 };
